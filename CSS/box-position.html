@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            height: 5000px;
+        }
+        .box{
+            border: 3px solid;
+            width: 100px;
+            height: 100px;
+            position: absolute; /*this is what moves the box.*/
+            left: 0px;
+            top: 0px;
+            background-color: blue;
+        }
+        .box2{
+            border: 2px solid;
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            background-color: red;
+            right: 0px;
+        }
+        .box3{
+            position: relative;
+            top: 250px;
+            width: 100px;
+            height: 200px;
+        }
+        .box4{
+            position:sticky;
+            top:200px;
+            width: 200px;
+            height: 120px;
+        }
+    </style>
+
+<div class="absolute">
+    <div class="box">Absolute</div>
+</div>
+<div class="fixedone">
+    <div class="box2">Fixed</div>
+<div class="relative">
+    <div class="box3">Relative</div>
+    </div>
+</body>
+
+</html>
