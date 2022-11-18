@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            padding: 20px;
+            background-color: blueviolet;
+            display: flex; /*flex makes the items placed in text container align in a row*/
+            flex-direction: row;
+            justify-content: space-evenly; /*used to horizontally align content*/
+            align-items: stretch; /*used to vertically align content*/
+        }
+        #container>div{
+            /* .one, .two, .three{}*/
+            padding:30px;
+            background-color: aqua;
+            height: 50px;
+            width: 50px;
+            border:1px solid;
+            margin:10px;
+        }
+    </style>
+    </head>
+</body>
+<div id="container">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+</div> 
+</body>
+</html>
