@@ -16,8 +16,8 @@
         box-sizing: border-box;
         font-size: large;
     }
-    li{
-        float:left;
+    #footerid li{
+        float: left;
     }
     li a{
         color: black;
@@ -117,18 +117,47 @@
         justify-content: center;
     }
     #skipcancel{
+
         text-align:center;
     }
     .OnTheMenu{ 
-        display:flex;
         text-align: center;
+    }
+    .Tryriskfree{ 
+        text-align: center;
+        padding-top: 50px;
+    }
+    .LeadCapture{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .subscribe{
+        align-items: center;
+    }
+    /* #CP{
+        text-align: center;
+        padding: 25px; 
+    }
+    */
+    #footerid{
+        padding: 25px;
+    }
+    #downloadapp{
+        display: flex;
+        justify-content: right;
+    }
+    .footertop {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
     }
 
     </style>
 </head>
 <body>
     <header>
-    <ul>
+    <ul id="footerid">
         <li><a href="#"><img src=""> </a> </li>
         <li><a href="#OTM">On the menu</a></li>
         <li><a href="#Pricing">Pricing</ai></li>
@@ -174,7 +203,7 @@
     <div id="WhyChefsPlate">
         <h3>Why Chefs Plate</h3>
     </div>
-    <table >
+    <table>
         <tr rowspan="2">
             <td ><img src="https://images.ctfassets.net/4frik3v39clf/6wFAZheZagXo9xnDwtWKq9/5ade0d20ef5998e11429d52af575e5b3/calendar_icon.png"></td>
             <td>
@@ -201,27 +230,30 @@
     <a href="https://www.chefsplate.com/plans"><a name="GetStarted">
         <button>Get Started</button>
     </a>
-    <div>
-    <h5>Skip or cancel any time</h5>
 </div>
+<div class="skipcancel">
+    <h5 id="skipcancel">Skip or cancel any time</h5>
 </div>
     <div class="OnTheMenu">
+        <div id="Menu">
         <h3>On the Menu</h3>
+        </div>
         <h5>Each week, choose from a menu of 24 easy to cook recipes</h5>
         <a href="https://www.chefsplate.com/plans"><a name="ViewFullMenu">
             <button>View Full Menu</button>
         </a>
         <h5>Browse through some of our popular recipes this week.</h5>
     </div>
-    <div id="Tryriskfree">
-        <h5>Starting at $8.99 per serving!</h5>
-        <h3>Try us risk-free. Skip or cancel your subscription anytime.</h3>
+    <div class="Tryriskfree">
+        <h2>Starting at $8.99 per serving!</h2>
+        <h3>Try us risk-free.</h3>
+        <h5>Skip or cancel your subscription anytime.</h5>
         <a href="https://www.chefsplate.com/plans"><a name="OrderNow">
             <button>Order Now</button>
         </a>
     </div>
-    <div id="LeadCapture">
-        <h5>Subscribe for exclusive offers</h5>
+    <div class="LeadCapture">
+        <h1>Subscribe for exclusive offers</h1>
         <h3>Subscribe to our emails and get the latest product offers, recipe updates and more.</h3>
         <button id="email">Enter your email</button>
         <a href=""><a name="Subscribe">
@@ -230,10 +262,13 @@
         <h6>You can unsubscribe at any time.</h6>
     </div>
     <footer>
-        <div id="CP">
+        <div class="footertop">
+            <div class="footerleft">
+        <div class="CPFooter">
+
         <ul>
-            <li id="CP">Chefs Plate</li>
-            <h5><a href="https://www.chefsplate.com/weekly-menu"><li>On the menu</li></a></h5>
+            <li id="CP" style="margin-top: 0;">Chefs Plate</li>
+            <li><h5><a href="https://www.chefsplate.com/weekly-menu">On the menu</a></h5></li>
             <h5><a href="https://www.chefsplate.com/plans"><li>Pricing</li></a></h5>
             <h5><a href="https://www.chefsplate.com/pages/corporate-sales-partnerships"><li>Partnerships</li></a></h5>
             <h5><a href="https://secure.gocertify.me/at/chefsplate/senior-new"><li>Senior Discount</li></a></h5>
@@ -241,20 +276,23 @@
             <h5><a href="https://www.chefsplate.com/pages/corporate-sales-partnerships"><li>Corporate Sales & Partnerships</li></a></h5>
         </ul>
     </div>
-        <div id="Helpcenter">
+        <div class="Helpcenter">
         <ul>
             <li>Help center</li>
             <h5><a href="https://www.chefsplate.com/faq"><li>Help center and FAQ</li></a></h5>
         </ul>
     </div>
-    <div id="Downloadapp">
+</div>
+    <div class="Downloadapp">
         <ul>
-            <h5><li>Download our app</li></h5>
+            <h5 style="margin-top: 0;"><li>Download our app</li></h5>
             <h5><li>Manage your deliveries from anywhere, anytime.</li></h5>
             <a href="https://apps.apple.com/ca/app/chefs-plate/id1536589530"><img src="https://cdn.hellofresh.com/us/cms/ER/badges/appstore-badge-en.png" width="150"></a></img>
             <a href="https://play.google.com/store/apps/details?id=com.chefsplate.ChefsPlate"><img src="https://cdn.hellofresh.com/us/cms/ER/badges/playstore-badge-en.png" width="150"></a></img>
             </ul>
     </div>
+</div>
+    <br>
         <hr>
         <div>
             <h5>Chefs Plate 2022</h5>
