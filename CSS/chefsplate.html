@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chefs Plate | Fresh ingredients & delicious meals delivered to your door </title>
     <style>
-    
     ul{
         list-style-type: none;
         margin: 0;
@@ -15,21 +14,19 @@
         background-color: white;
         font-family: Arial, Helvetica, sans-serif;
         box-sizing: border-box;
-        display: inline-block;
         font-size: large;
     }
     li{
         float:left;
     }
     li a{
-        display: block;
         color: black;
     }
     li a:hover{
         background-color: gray;
     }
     a{
-        color: #c10500;
+        color: #C10500;
         text-decoration: underline;
     }
     #notifications{
@@ -43,12 +40,10 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         line-height: 36px;
-        background-color: #c10500;
-        border-color: #c10500;
+        background-color: #C10500;
+        border-color: #C10500;
         box-shadow: none;
         border-radius: 5px;
-        display: flex;
-        position: relative;
         align-items: center;
         text-transform: initial;
         color: #fff;
@@ -67,73 +62,150 @@
         background-color: darkred;
         border: none;
     }
+    header{
+        padding: 15px;
+        justify-content: center;
+        display: flex;
+    }
+    header li{
+        padding: 15px;
+        margin-right: 105px;
+    }
+    header li a{
+        text-decoration: none;
+    }
+    .firstsection{
+        background-image: url(https://www.vmcdn.ca/f/files/via/images/sponsored-content-images/chefs-plate-via.jpg;w=960);
+        height: 600px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        background-position: center;
+    }
+    .firsts{
+        position: relative;
+        top: 75px;
+        right: 80px;
+    }
+    .secondsection{
+        display: flex;
+        margin: 70px;
+        padding:35px;
+        margin-top: 20px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .howitworks{
+        text-align: center;
+        padding-top: 50px;
+    }
+    #youchoose, #wedeliver, #youcook{
+        padding: 55px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    #WhyChefsPlate{
+        text-align: center;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+    }
+    .getstarted{
+        display: flex;
+        justify-content: center;
+    }
+    #skipcancel{
+        text-align:center;
+    }
+    .OnTheMenu{ 
+        display:flex;
+        text-align: center;
+    }
 
     </style>
 </head>
-
 <body>
-    <header id="header1">
-
-    <ul id="header">
+    <header>
+    <ul>
+        <li><a href="#"><img src=""> </a> </li>
         <li><a href="#OTM">On the menu</a></li>
         <li><a href="#Pricing">Pricing</ai></li>
+        <li><a href="#Pricing">FAQs</ai></li>
+        <li><a href="#Pricing">Log in</ai></li>
+        <a href="#"><a name="GetStarted">
+        <button>Sign up</button>
     </ul>
 </header>
-
     <div id="notifications">
     <p><img alt="Purple Dollar Sign" src="https://images.ctfassets.net/4frik3v39clf/40Qex4LFDa3eI1S2dkBZH3/e5fecc3aa6f21af5bb179d01926ae0c8/dollar.svg">Enjoy a total of <strong>$76 OFF</strong> throughout your first 3 boxes!</p>
-<a href="Show more">Show more</a>
+    <a href="Show more">Show more</a>
     </div>
-
-    <div id="">
+    <div  class="firstsection">
+    <div class="firsts">
 <h1>Cook For Less</h1>
 <h2>Get more bite for your buck with Chefs Plate</h2>
 <a href="https://www.chefsplate.com/plans"><a name="GetStarted">
     <button>Get Started</button>
 </a>
     </div>
-    <div id="homeHowItWorks">
-        <h2>How It Works</h2>
-    </div>
-    <div id="Youchoose">
+</div>
+<div class="howitworks">
+    <h2>How It Works</h2>
+</div>
+    <div class="secondsection">
+    <div id="youchoose">
         <img src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_500/everyplate_contentful/1Dkw9fmzX8DXZTRFCaaUwy/fa3bc07d420d7613ca08d059ac35c202/CP_YOU_CHOOSE_TILE_01_2022.png" width="200px">
         <h3><strong>You choose</strong></h3>
         <h5>from our weekly menu of tasty recipes</h5>
     </div>
-        <div id="Wedeliver">
+        <div id="wedeliver">
         <img src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_500/everyplate_contentful/1iLd8LVdYs4eGVPnDaXyGK/1052081f9a549413441f9530371dc8af/CP_WE_DELIVER_TILE_02_2022.png" width="200px">
         <h3><strong>We deliver</strong></h3>
         <h5>fresh ingredients right to your door</h5>
     </div>
-        <div id="Youcook">
+        <div id="youcook">
         <img src="https://images.everyplate.com/f_auto,fl_lossy,q_auto,w_500/everyplate_contentful/6ORCqVOiQGyivociV8M2ra/803c1776b5fae3d23f1e723fde04361c/CP_YOU_COOK_TILE_03_2022.png" width="200px">
         <h3><strong>You cook</strong></h3>
         <h5>delicious meals at home</h5>
     </div>
+    </div>
     <div id="WhyChefsPlate">
         <h3>Why Chefs Plate</h3>
     </div>
-    <div id="MadeEasy">
-        <img src="https://images.ctfassets.net/4frik3v39clf/6wFAZheZagXo9xnDwtWKq9/5ade0d20ef5998e11429d52af575e5b3/calendar_icon.png">
-        <h3>Meal Planning Made Easy</h3>
-        <h5>Order from a weekly menu of tasty meals at the click of a button. Say goodbye to meal planning and grocery shopping!</h5>
-    </div>
-    <div id="Doorstep">
-        <img src="https://images.ctfassets.net/4frik3v39clf/2PzuMzZmA4WxNpJFeedsNr/e76a95848b1e5ce13d687936968ad139/box_icon__1_.png">
-        <h3>Dinner at your Doorstep</h3>
-        <h5>Open your box to discover everything you need to make a delicious dinner, including step-by-step recipe cards and fresh produce. Our ice packs keep everything fresh until you get home.</h5>
-
-    </div>
-    <div id="TimeSaved">
-        <img src="https://images.ctfassets.net/4frik3v39clf/6Uggvismw9MddGbeLEg6r3/85c034beb93ba2c11ba456905b78c486/money_icon__1_.png">
-        <h3>Time and Money Saved</h3>
-        <h5>Skip the trip to the grocery store and cook easy, affordable meals in 15 to 30 minutes. Save time and enjoy the best part - eating!</h5>
-    </div>
+    <table >
+        <tr rowspan="2">
+            <td ><img src="https://images.ctfassets.net/4frik3v39clf/6wFAZheZagXo9xnDwtWKq9/5ade0d20ef5998e11429d52af575e5b3/calendar_icon.png"></td>
+            <td>
+                <h3>Meal Planning Made Easy</h3>
+                <h5>Order from a weekly menu of tasty meals at the click of a button. Say goodbye to meal planning and grocery shopping!</h5>
+            </td>
+        </tr>
+        <tr rowspan="2">
+            <td ><img src="https://images.ctfassets.net/4frik3v39clf/2PzuMzZmA4WxNpJFeedsNr/e76a95848b1e5ce13d687936968ad139/box_icon__1_.png"></td>
+            <td>
+                <h3>Dinner at your Doorstep</h3>
+                <h5>Open your box to discover everything you need to make a delicious dinner, including step-by-step recipe cards and fresh produce. Our ice packs keep everything fresh until you get home.</h5>
+            </td>
+        </tr>
+        <tr rowspan="2">
+            <td ><img src="https://images.ctfassets.net/4frik3v39clf/6Uggvismw9MddGbeLEg6r3/85c034beb93ba2c11ba456905b78c486/money_icon__1_.png"></td>
+            <td>
+                <h3>Time and Money Saved</h3>
+                <h5>Skip the trip to the grocery store and cook easy, affordable meals in 15 to 30 minutes. Save time and enjoy the best part - eating!</h5>
+            </td>
+        </tr>
+    </table>
+    <div class="getstarted">
     <a href="https://www.chefsplate.com/plans"><a name="GetStarted">
         <button>Get Started</button>
     </a>
+    <div>
     <h5>Skip or cancel any time</h5>
-    <div id="OnTheMenu">
+</div>
+</div>
+    <div class="OnTheMenu">
         <h3>On the Menu</h3>
         <h5>Each week, choose from a menu of 24 easy to cook recipes</h5>
         <a href="https://www.chefsplate.com/plans"><a name="ViewFullMenu">
@@ -157,7 +229,6 @@
         </a>
         <h6>You can unsubscribe at any time.</h6>
     </div>
-
     <footer>
         <div id="CP">
         <ul>
@@ -191,11 +262,5 @@
             <a href="https://www.chefsplate.com/privacy-policy"><h5>Privacy Policy</h5></a>
     </div>
     </footer>
-
-
-
-
-
-
 </body>
 </html>
