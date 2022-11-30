@@ -8,10 +8,16 @@
 </head>
 <body>
     <script>
-    let a=SwitchA, b=SwitchB, c=SwitchC;
-    if(a=on){
-        console.log("switchA is On")
+    let switchA=true, switchB=true, switchC=false, switchD=true;
+    if(switchA==true&&switchB==true&&switchC==false){
+        if(switchB==true||switchD==true){
+        console.log("switch is On")
     }
+}
+    else{
+        console.log("light is off")
+    }
+
     </script>
 </body>
 </html>
